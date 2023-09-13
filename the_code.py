@@ -42,7 +42,7 @@ else:
                 passcode = ''.join(random.choice(characters) for _ in range(length))
             passcodes.append(passcode)
 
-        passcode_message = "\n".join(f"Passcode {i + 1}: {passcode}" for i, passcode in enumerate(passcodes))
+        passcode_message = "\n".join(f"Passcode {i + 1}: {passcode} \n" for i, passcode in enumerate(passcodes))
         messagebox.showinfo("Passcodes", passcode_message)
 
 root.destroy()
