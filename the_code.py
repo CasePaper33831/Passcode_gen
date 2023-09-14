@@ -23,7 +23,7 @@ def passcode_length():
     return int(input("Please enter passcode length in numbers with no commas (minimum value 12): "))
 
 def passcode_iteration():
-    return int(input("Please input the number of passcode variants (minimum value 0): "))
+    return int(input("Please input the number of passcode variants with no commas (minimum value 0): "))
 
 root = tk.Tk()
 root.withdraw()
